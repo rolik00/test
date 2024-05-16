@@ -1,7 +1,8 @@
 # DO NOT EDIT
 import pytest
 
-from code import sum, power
+from code import sum
+from code import power
 
 @pytest.mark.parametrize(
     ('a', 'b', 'result'), [

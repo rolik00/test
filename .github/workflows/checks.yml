@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
         pip install flake8
     - name: Check code formating
-      run: flake .
+      run: flake8 .
     - name: Run tests
       run: |
          pytest

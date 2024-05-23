@@ -20,4 +20,4 @@ jobs:
         pip install -r requirements.txt
         pip install flake8
     - name: Check code formating
-      run: npm run format:check
+      run: flake8 

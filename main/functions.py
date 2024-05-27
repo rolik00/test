@@ -10,7 +10,7 @@ def sum(a: int, b: int) -> int:
 
     result = 0
   
-    # Выполнить сложение
+    result = a + b
   
     return result
 
@@ -26,6 +26,6 @@ def power(x: int, y: int) -> int:
 
     result = 0
     
-    # Выполнить возведение в степень
+    result = x ** y
 
     return result
